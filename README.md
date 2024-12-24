@@ -1,2 +1,2 @@
 # lazarus-lake-website
-Next..JS website for Lazarus Lake
+Next.JS website for Lazarus Lake
