@@ -1,0 +1,58 @@
+.logocontainer {
+  position: fixed;
+  height: 175px;
+  right: 0;
+  margin: 0 auto;
+  top: 0;
+  width: 175px;
+  z-index: 1000;
+}
+
+.img {
+  padding: 0.5em;
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+
+  /* Animation */
+  animation-name: spin;
+  animation-duration: 15000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform-origin: center center;
+}
+
+/* ANIMATION */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+/* *** *** *** *** *** *** MEDIA QUERIES *** *** *** *** *** *** */
+/* small computer */
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+  .logocontainer {
+    height: 115px;
+    width: 115px;
+  }
+}
+
+/* tablet size */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .logocontainer {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+/* phone size */
+@media screen and (max-width: 767px) {
+  .logocontainer {
+    height: 60px;
+    width: 60px;
+  }
+}

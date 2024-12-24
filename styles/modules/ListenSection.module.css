@@ -1,0 +1,50 @@
+.spotify {
+  border: 0px;
+  border-radius: 12px;
+  height: 27em;
+  width: 100%;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.title {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+.links {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+/* grid setup */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-template-rows: 1fr 2fr;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+}
+
+/* ------ MEDIA QUERIES ------ */
+/* phone size */
+@media screen and (max-width: 767px) {
+  .grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+  }
+
+  .title {
+    grid-column: 1/2;
+  }
+
+  .spotify {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .links {
+    grid-row: 3/4;
+  }
+}

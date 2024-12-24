@@ -1,2 +1,1 @@
-# lazarus-lake-website
-Next.JS website for Lazarus Lake
+Lazarus Lake Website built with Next.js.
