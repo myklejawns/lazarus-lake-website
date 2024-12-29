@@ -1,1 +1,0 @@
-LB Beistad Website built with Next.js.

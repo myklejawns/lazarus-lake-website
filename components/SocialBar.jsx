@@ -7,7 +7,7 @@ import {
   faInstagram,
   faYoutube,
   faTiktok,
-  faTwitch,
+  faFacebook
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -21,7 +21,7 @@ function SocialBar() {
           {/* SPOTIFY */}
           <a
             className={styles.socialbaricon}
-            href="https://open.spotify.com/artist/6GIxvMMnmO9lEGQSbVs0KJ?si=afVvt1eaQ6yWFQvHCDHWVQ"
+            href="https://open.spotify.com/artist/67IyI8M5pUu1XJSS2XbMd0?si=SxVU5tT1QZiYpcK7iQbATQ"
             target="_blank"
             rel="noreferrer">
             <FontAwesomeIcon icon={faSpotify} />
@@ -31,7 +31,7 @@ function SocialBar() {
         <li className={styles.itemspacing}>
           <Link
             className={styles.socialbaricon}
-            href="https://music.apple.com/us/artist/lb-beistad/1559771908"
+            href="https://music.apple.com/us/artist/lazarus-lake/1664765958"
             target="_blank"
             rel="noreferrer">
             <FontAwesomeIcon icon={faItunesNote} />
@@ -41,7 +41,7 @@ function SocialBar() {
         <li className={styles.itemspacing}>
           <Link
             className={styles.socialbaricon}
-            href="https://lbbeistad.bandcamp.com/"
+            href="https://lazaruslake.bandcamp.com/"
             target="_blank"
             rel="noreferrer">
             <FontAwesomeIcon icon={faBandcamp} />
@@ -51,7 +51,7 @@ function SocialBar() {
         <li className={styles.itemspacing}>
           <Link
             className={styles.socialbaricon}
-            href="https://www.instagram.com/lbbeistad/"
+            href="https://www.instagram.com/myklejawns/"
             target="_blank"
             rel="noreferrer">
             <FontAwesomeIcon icon={faInstagram} />
@@ -61,7 +61,7 @@ function SocialBar() {
         <li className={styles.itemspacing}>
           <Link
             className={styles.socialbaricon}
-            href="https://music.youtube.com/channel/UCvGX15gBN8QfX6nsshx6nAQ"
+            href="https://www.youtube.com/channel/UCvcALWirgGs5hiS66W59b8Q/?sub_confirmation=1"
             target="_blank"
             rel="noreferrer">
             <FontAwesomeIcon icon={faYoutube} />
@@ -71,22 +71,22 @@ function SocialBar() {
         <li className={styles.itemspacing}>
           <Link
             className={styles.socialbaricon}
-            href="https://vm.tiktok.com/ZM8fyWxAR/"
+            href="https://www.tiktok.com/@lazaruslake"
             target="_blank"
             rel="noreferrer">
             <FontAwesomeIcon icon={faTiktok} />
           </Link>
         </li>
-        {/* TWITCH
+        {/* FACEBOOK */}
         <li className={styles.itemspacing}>
           <Link
             className={styles.socialbaricon}
-            href="https://www.twitch.tv/lbbeistad"
+            href="https://www.facebook.com/lazaruslakemusic"
             target="_blank"
             rel="noreferrer">
-            <FontAwesomeIcon icon={faTwitch} />
+            <FontAwesomeIcon icon={faFacebook} />
           </Link>
-        </li> */}
+        </li>
       </ul>
     </section>
   );

@@ -9,8 +9,8 @@ export default function Main() {
   return (
     <>
       <Head>
-        <title>LB Beistad</title>
-        <meta name="description" content="LB Beistad" />
+        <title>Lazarus Lake</title>
+        <meta name="description" content="Lazarus Lake" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Background />

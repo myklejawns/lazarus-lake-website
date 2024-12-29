@@ -5,12 +5,10 @@ export default function Document() {
     <Html lang="en">
       <Head>
         {/* Google Fonts */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Montserrat+Alternates:wght@300;400;500;600;800&display=swap"
-          rel="stylesheet"
-        />
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"/>
+
         {/* Favicon */}
         <link rel="icon" href="/images/favicon.ico" />
         {/* Bootstrap CSS */}
@@ -21,21 +19,21 @@ export default function Document() {
           crossOrigin="anonymous"
         />
         {/* OG Protocol Meta Tags */}
-        <meta property="og:url" content="https://www.lbbeistad.com" />
+        <meta property="og:url" content="https://www.lazaruslakemusic.com" />
                   
-        <meta property="og:title" content="LB Beistad" />
+        <meta property="og:title" content="Lazarus Lake" />
                   
         <meta
           property="og:description"
-          content="Southern New Wave and Indie Pop artist out of Nashville, TN."
+          content="Family Tree out now!"
         />
                   
         <meta
           property="og:image"
-          content="/images/lbbeistad_background_halftone.jpg"
+          content="/images/photo-2.jpg"
         />
                   
-        <meta property="og:site_name" content="LB Beistad" />
+        <meta property="og:site_name" content="Lazarus Lake" />
       </Head>
       <body>
         <Main />

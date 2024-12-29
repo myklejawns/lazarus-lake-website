@@ -1,13 +1,13 @@
 /*-------------------- ROOT PROPERTIES --------------------*/
 :root {
-  --ff-primary: "Climate Crisis", cursive;
-  --ff-secondary: "Montserrat Alternates", sans-serif;
+  --ff-primary: "Ubuntu", sans-serif;
+  --ff-secondary: "Ubuntu", sans-serif;
 
-  --clr-light: #fffef4;
-  --clr-accent: #c39c68;
-  /* --clr-accent: #edb2a5; */
-  --clr-neutral: #f2cc8f;
-  --clr-dark: #181818;
+  --clr-light: #f1f0e5;
+  --clr-accent: #ecf39e;
+  --clr-darkg: #31572c;
+  --clr-neutral: #90a955;
+  --clr-dark: #1e1e1d;
 }
 
 /*------------------------- GENERAL -------------------------*/
@@ -33,6 +33,7 @@ h2 {
 
 h1 {
   font-size: 9rem;
+  color: var(--clr-neutral);
 }
 
 h2 {
@@ -78,13 +79,13 @@ p {
 
 /* -------------------------- Links -------------------------- */
 a {
-  color: var(--clr-dark);
+  color: var(--clr-light);
   padding: 0 1%;
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--clr-light);
+  color: var(--clr-neutral);
 }
 
 #contact a {
@@ -120,6 +121,14 @@ a:hover {
   width: 100%;
 }
 
+/* ------------------------------  VIDEO STYLES ------------------------------ */
+.cover-video {
+  border: 0px;
+  border-radius: 1em;
+  height: 100%;
+  width: 100%;
+}
+
 /* ------------------------------ BACKGROUND ------------------------------ */
 .background-div {
   height: 100vh;
@@ -132,7 +141,7 @@ a:hover {
 .background {
   background-attachment: fixed;
   background-color: var(--clr-dark);
-  background-image: url("/images/Dogma-screenshot1.webp"), url("/images/Dogma-screenshot1.jpg");
+  background-image: /*url("/images/photo-7-bw.webp"),*/ url("/images/photo-20-bw.jpg");
   /* background-image: url("/images/coverimage.webp"), url("/images/coverimage.jpg"); */
   background-size: cover;
   background-position: 80% 100%;
@@ -145,7 +154,7 @@ a:hover {
 .epk-background {
   background-attachment: fixed;
   background-color: var(--clr-dark);
-  background-image: url("/images/Dogma-screenshot1.webp"), url("/images/Dogma-screenshot1.jpg");
+  background-image: url("/images/photo-19.webp"), url("/images/photo-19.jpg");
   /* background-image: url("/images/epk-background.jpg"); */
   background-size: cover;
   background-position: 20% 70%;
@@ -157,7 +166,7 @@ a:hover {
 
 .darken {
   background-attachment: fixed;
-  background-color: #0000003a;
+  background-color: #000000a9;
   height: 100%;
   position: absolute;
   width: 100%;

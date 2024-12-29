@@ -3,9 +3,9 @@ function Footer() {
 
   return (
     <section className="container-fluid" id="footer">
-      <h3>LB Beistad</h3>
+      <h3>Lazarus Lake</h3>
 
-      <p className="copyright">© LB Beistad {currentYear}</p>
+      <p className="copyright">© Lazarus Lake {currentYear}</p>
 
       <p className="attrib">
         Icons provided by

@@ -9,12 +9,12 @@
 }
 
 .socialbaricon {
-  color: var(--clr-light);
+  color: #f1f0e5;
   font-size: 2rem;
 }
 
 .socialbaricon:hover {
-  color: var(--clr-dark);
+  color: #90a955;
 }
 
 /**** MEDIA QUERIES ****/

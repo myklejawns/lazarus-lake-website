@@ -1,7 +1,7 @@
 /* grid setup */
 .grid {
-  background-color: #c39c68;
-  color: black;
+  /* background-color: #1e1e1d; */
+  color: #f1f0e5;
   display: grid;
   gap: 0.5em;
   grid-template-columns: repeat(2, 1fr);

@@ -7,12 +7,12 @@
 }
 
 .socialbaricon {
-  color: var(--clr-light);
+  color: #ecf39e;
   font-size: 3rem;
 }
 
 .socialbaricon:hover {
-  color: var(--clr-neutral);
+  color: #90a955;
 }
 
 /* ------ MEDIA QUERIES ------ */

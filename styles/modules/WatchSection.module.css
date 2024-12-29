@@ -2,7 +2,7 @@
   display: grid;
   place-items: center;
   gap: 2em;
-  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
   grid-template-rows: repeat(auto-fit, 1fr);
 }
 
@@ -14,7 +14,7 @@
 
 .videoContainer {
   aspect-ratio: 4 / 3;
-  width: 20em;
+  width: 30em;
 }
 
 /* *** *** *** *** *** *** MEDIA QUERIES *** *** *** *** *** *** */

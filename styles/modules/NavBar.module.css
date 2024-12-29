@@ -1,7 +1,7 @@
 /* ------------------------------ NAVBAR ------------------------------ */
 .navgrid {
   align-items: center;
-  background-color: #c39c68;
+  background-color: #f1f0e5;
   display: grid;
   grid-template-columns: 1.75fr repeat(5, 1fr);
   grid-template-rows: 4em;
@@ -14,7 +14,7 @@
   width: 4em;
   writing-mode: vertical-rl;
   z-index: 999;
-  border-left: 1px solid #181818;
+  border-left: 1px solid #1e1e1d;
 }
 
 .navdiv {
@@ -26,19 +26,19 @@
 }
 
 .navdiv:hover {
-  background-color: #181818;
+  background-color: #1e1e1d;
 }
 
 .navdiv:hover > .navgriditem {
-  color: #edb2a5;
+  color: #90a955;
 }
 
 .navdivborder {
-  border-bottom: 1px solid #181818;
+  border-bottom: 1px solid #1e1e1d;
 }
 
 .navgriditem {
-  color: #181818;
+  color: #1e1e1d;
   height: 100%;
   padding: 0;
   margin: 0;
@@ -48,7 +48,7 @@
 /* phone size */
 @media screen and (max-width: 767px) {
   .navgrid {
-    grid-template-rows: 2.5em;
-    width: 2.5em;
+    grid-template-rows: 2.2em;
+    width: 2.2em;
   }
 }

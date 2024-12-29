@@ -16,30 +16,14 @@ function BioSection() {
           <ContactInfo />
         </div>
         <div className={`align-text-left ${styles.bio}`}>
-          <p>
-            LB Beistad is an independent artist who defies categorization with
-            her infectious melodies, thought-provoking lyrics, and dynamic stage
-            presence. With the release of their latest single, "Dogma," LB
-            continues to push creative boundaries and explore new sonic
-            territories. She has opened for acts such as Olivia Jean, Larkin
-            Poe, and Nordista Freeze.
-            <br />
-            <br />
-            Inspired by a diverse range of artists spanning various genres, LB
-            embarked on a musical journey that led to the crafting of a sound as
-            eclectic as it is engaging. Their musical style incorporates
-            elements of folk, grunge, and pop; resulting in a sonic landscape
-            that is uniquely their own. Collaboration with producer Jared Corder
-            (of *repeat repeat) has brought a new layer to her songs.
-            <br />
-            <br />
-            With deeply personal and introspective songwriting, LB delves into
-            themes of love, loss, self-discovery, and social issues. Whether
-            performing solo or with a full band, LB's stage presence is
-            magnetic, commanding the attention of the audience from the first
-            note. Their music has garnered positive reviews from critics and has
-            been featured on various blogs, radio stations, and playlists.
-          </p>
+        <h3>Press</h3>
+        <p>
+        &quot;He has a great voice and ear for country. He came through with something that is very heartfelt. 
+        In order to make a song like 'Family Tree' work, I feel like you have to have your full heart in it, and I felt it. 
+        Super pleasant, easy on the ears, just very feel-good.&quot;
+        <br />
+        <span className="bold">- Brad Taste In Music</span>
+      </p>
         </div>
       </div>
     </section>
