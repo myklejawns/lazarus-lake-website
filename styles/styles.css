@@ -141,7 +141,7 @@ a:hover {
 .background {
   background-attachment: fixed;
   background-color: var(--clr-dark);
-  background-image: /*url("/images/photo-7-bw.webp"),*/ url("/images/photo-20-bw.jpg");
+  background-image: /*url("/images/photo-7-bw.webp"),*/ url("../public/images/photo-20-bw.JPG");
   /* background-image: url("/images/coverimage.webp"), url("/images/coverimage.jpg"); */
   background-size: cover;
   background-position: 80% 100%;
