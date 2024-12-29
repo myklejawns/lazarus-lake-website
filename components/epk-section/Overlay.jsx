@@ -4,6 +4,7 @@ import Images from "../../files/images.json";
 import Videos from "../../files/videos.json";
 import Bio from "../../files/bio.json";
 import PressQuotes from "../../files/press.json";
+import SpotifyFeature from "../../files/spotify-feature.json";
 
 function Overlay() {
 
@@ -30,7 +31,7 @@ function Overlay() {
         {/* spotify */}
         <iframe
           className={styles.spotify}
-          src="https://open.spotify.com/embed/track/7dgBnMd1mmh4LqTDgzNhA1?utm_source=generator&theme=0"
+          src={"https://open.spotify.com/embed/track/" + SpotifyFeature['embed-code'] + "?utm_source=generator&theme=0"}
           allowFullScreen=""
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
