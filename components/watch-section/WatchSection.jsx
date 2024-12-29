@@ -8,7 +8,7 @@ function WatchSection() {
       <h1>WATCH</h1>
       <div className={styles.grid}>
       {Videos['embed-code-main'].map((item, index) =>(
-        <Video idx={index} link={"https://www.youtube.com/embed/" + item} />
+        <Video key={index} idx={index} link={"https://www.youtube.com/embed/" + item} />
       ))}
       </div>
     </section>
