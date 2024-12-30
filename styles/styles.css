@@ -1,7 +1,7 @@
 /*-------------------- ROOT PROPERTIES --------------------*/
 :root {
-  --ff-primary: "Ubuntu", sans-serif;
-  --ff-secondary: "Ubuntu", sans-serif;
+  --ff-primary: "Frank Ruhl Libre", serif;
+  --ff-secondary: "Frank Ruhl Libre", serif;
 
   --clr-light: #f1f0e5;
   --clr-accent: #ecf39e;
@@ -33,7 +33,7 @@ h2 {
 
 h1 {
   font-size: 9rem;
-  color: var(--clr-neutral);
+  color: var(--clr-darkg);
 }
 
 h2 {
