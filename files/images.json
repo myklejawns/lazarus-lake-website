@@ -1,6 +1,7 @@
 {
     "_comment": "Images listed here are used in the EPK. Upload image into the 'images' folder inside of the public folder and list file name here. Include the file extension: .jpg, .png. webp. etc."
     ,"file-names": [
+        "photo-1.jpg",
         "photo-2.jpg",
         "photo-3.jpg",
         "photo-4.jpg",
