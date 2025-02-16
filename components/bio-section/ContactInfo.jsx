@@ -8,10 +8,6 @@ function ContactInfo() {
       <Link href="myklejawnsmusic@gmail.com">myklejawnsmusic [at] gmail [dot] com</Link>
       <br/>
       <br />
-      {/* <h4>Licensing</h4>
-      <h5>Music Alternatives</h5> */}
-      {/* <Link href="mailto:licensing@musicalternatives.com">licensing@musicalternatives.com</Link> */}
-
     </div>
   );
 }

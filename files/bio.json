@@ -1,4 +1,6 @@
 {
     "_comment": "Bio is used on main page and epk."
-    ,"bio": "Lazarus Lake is a Knoxville alt-country project created and fronted by Michael Jones. He is super cool."
+    ,"home-page-bio": ["Lazarus Lake is a Knoxville alt-country project created and fronted by Michael Jones."]
+    ,"bio": ["Lazarus Lake, the alt-country outfit of singer/songwriter Michael Jones, arrives with its debut record Family Tree, out May 30th, 2025 on Kindness Records."
+            , "Blending homespun southern rock with the no-frills directness of Americana tradition, Family Tree explores the ties that bind and the ways that they’re strained—with an eye to redeem the moments when life falls apart and to keep alive the memory of loved ones lost."]
 }

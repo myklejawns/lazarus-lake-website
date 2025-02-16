@@ -1,6 +1,7 @@
 import styles from "../../styles/modules/BioSection.module.css";
 import ContactInfo from "./ContactInfo";
 import Press from "./Press";
+import Bio from "../../files/bio.json";
 
 function BioSection() {
   return (
@@ -10,20 +11,16 @@ function BioSection() {
           <h1>BIO</h1>
         </div>
         <div className={`align-text-right ${styles.quote}`}>
+          <h3>Press</h3>
           <Press />
           <br />
           <h3>Contact</h3>
           <ContactInfo />
         </div>
         <div className={`align-text-left ${styles.bio}`}>
-        <h3>Press</h3>
-        <p>
-        &quot;He has a great voice and ear for country. He came through with something that is very heartfelt. 
-        In order to make a song like 'Family Tree' work, I feel like you have to have your full heart in it, and I felt it. 
-        Super pleasant, easy on the ears, just very feel-good.&quot;
-        <br />
-        <span className="bold">- Brad Taste In Music</span>
-      </p>
+        {Bio['home-page-bio'].map((item, index) =>(
+            <p>{item}<br /></p>
+          ))}
         </div>
       </div>
     </section>
