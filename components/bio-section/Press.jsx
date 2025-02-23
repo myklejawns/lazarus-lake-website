@@ -1,12 +1,16 @@
+import PressQuotes from '../../files/press.json';
+
 function Press() {
   return (
     <div>
       
-
-      <p>
-          Lazarus Lake is a Knoxville alt-country project created and fronted by Michael Jones.
-      </p>
-      
+      {PressQuotes['press'].map((item, index) =>(
+            <p>
+        &quot;{item['quote']}&quot;
+        <br />
+        <span className="bold">{item['source']}</span>
+        </p>
+          ))}      
 
     </div>
   );

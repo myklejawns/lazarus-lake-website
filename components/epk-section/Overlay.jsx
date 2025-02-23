@@ -16,7 +16,11 @@ function Overlay() {
         {/* Bio */}
         <div className={styles.quotes}>
           <h3>Bio</h3>
-          <p>{Bio['bio']}</p>
+
+          {Bio['bio'].map((item, index) =>(
+            <p>{item}<br /></p>
+          ))}
+
           <h3>Press</h3>
 
           {PressQuotes['press'].map((item, index) =>(
