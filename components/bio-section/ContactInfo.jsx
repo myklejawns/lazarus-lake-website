@@ -5,7 +5,7 @@ function ContactInfo() {
     <div>
       {/* <h4>Management | Press | Booking</h4> */}
       <h5>Michael Jones</h5>
-      <Link href="myklejawnsmusic@gmail.com">myklejawnsmusic [at] gmail [dot] com</Link>
+      <Link href="mailto:myklejawnsmusic@gmail.com">myklejawnsmusic [at] gmail [dot] com</Link>
       <br/>
       <br />
     </div>
