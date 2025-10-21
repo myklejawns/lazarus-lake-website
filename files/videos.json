@@ -1,14 +1,16 @@
 {
     "_comment": "Videos listed here are used throughout website. Youtube videos only. Click on the Share button on YT, click embed, copy only the code after the 'embed/' section"
     ,"embed-code-epk": [
-        "mh4TEBKN_ZI?si=51REoWadRxMZ6-Nd",
         "zhZCa4XOE_4?si=zgETPAgB8Sxqk4ZP",
-        "2mQljvya5_w?si=C1U512IdL4K9EehM"
+        "2mQljvya5_w?si=C1U512IdL4K9EehM",
+        "8AB8nDbomVc?si=OfBWs-LbnnfOxZno",
+        "Uza7kBKUIS8?si=OZWp59Lf9it05w3i"
     ]
     ,"embed-code-main": [
-        "mh4TEBKN_ZI?si=51REoWadRxMZ6-Nd",
         "zhZCa4XOE_4?si=zgETPAgB8Sxqk4ZP",
-        "2mQljvya5_w?si=C1U512IdL4K9EehM"
+        "2mQljvya5_w?si=C1U512IdL4K9EehM",
+        "8AB8nDbomVc?si=OfBWs-LbnnfOxZno",
+        "Uza7kBKUIS8?si=OZWp59Lf9it05w3i"
     ]
     ,"embed-code-coverpage": "zhZCa4XOE_4?si=zgETPAgB8Sxqk4ZP"
 }
