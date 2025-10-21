@@ -83,7 +83,7 @@ function Overlay() {
           <h3>Contact</h3>
           {/* <h4>Management | Press | Booking</h4> */}
           <p>Michael Jones</p>
-          <Link href="myklejawnsmusic@gmail.com">myklejawnsmusic [at] gmail [dot] com</Link>
+          <Link href="mailto:myklejawnsmusic@gmail.com">myklejawnsmusic [at] gmail [dot] com</Link>
         </div>
       </div>
     </div>
