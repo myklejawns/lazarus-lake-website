@@ -51,7 +51,7 @@ function SocialBar() {
         <li className={styles.itemspacing}>
           <Link
             className={styles.socialbaricon}
-            href="https://www.instagram.com/myklejawns/"
+            href="https://www.instagram.com/lazaruslake.band/"
             target="_blank"
             rel="noreferrer">
             <FontAwesomeIcon icon={faInstagram} />
